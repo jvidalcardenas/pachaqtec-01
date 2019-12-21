@@ -1,0 +1,155 @@
+/*Global*/
+body {
+    width: 1200px;
+    margin: auto;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+  }
+  
+  p {
+    line-height: 45px;
+    margin: 30px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  /*Sección banner*/
+  
+  .banner {
+    background-image: url("./../images/fondo.jpg");
+    height: 400px;
+    width: 100%;
+  }
+  
+  .presentation {
+    color: white;
+    font-size: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+  }
+  
+  .introduction {
+    background-color: blueviolet;
+    padding-top: 40px;
+    padding-left: 30px;
+    margin-top: 60px;
+    margin-left: 20px;
+    opacity: 0.5;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+  }
+  
+  /*Sobre mí*/
+  
+  .sobre-mi {
+    background-color: lightblue;
+    height: 500px;
+    width: 100%;
+    color: white;
+    text-decoration-line: none;
+  }
+  .CV {
+    text-align: center;
+    background-color: violet;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+  }
+  
+  .CV:hover {
+    background-color: black;
+  }
+  /*Mis Skills*/
+  
+  .skills {
+    background-color: rgb(168, 37, 92);
+    height: 500px;
+    width: 100%;
+    color: white;
+    text-decoration-line: none;
+  }
+  
+  /*Portafolio*/
+  
+  .Portafolio {
+    background-color: rgb(202, 184, 17);
+    height: 300px;
+    width: 100%;
+    color: white;
+    text-decoration-line: none;
+    justify-content: space-evenly;
+  }
+  
+  .flex-portafolio div {
+      display: flex;
+      justify-content: space-evenly;
+      position: center;
+      margin-top: 30px;
+  }
+  /*Clientes*/
+  
+  .clientes {
+    background-color: rgb(36, 18, 87);
+    height: 200px;
+    width: 100%;
+    color: white;
+    text-decoration-line: none;
+    position: relative;
+  }
+  .flex-clientes {
+    display: flex;
+    justify-content: space-evenly;
+    position: center;
+    margin-top: 30px;
+  }
+  /*Contacto*/
+  
+  .contacto {
+    background-color: rgb(91, 130, 173);
+    height: 450px;
+    width: 100%;
+    color: white;
+  }
+  
+  .contenido-form,
+  .contenido-form div {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .contenido-form button {
+    background-color: rgb(13, 18, 92);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    width: 120px;
+  }
+  .contenido-form input[type="text"], .contenido-form input[type="email"] {
+      font-size: 25px;
+  }
