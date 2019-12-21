@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        input{
+            padding: 10px;
+        }
+
+        input:focus:valid{
+            border: 1px solid green;
+        }
+
+        input:focus:invalid{
+            border: 1px solid red;
+            
+        }
+    </style>
+    <form action="#">
+        <input type="text" placeholder="Nombre" required pattern="[A-Za-z]+"/>
+        <input type="text" placeholder="Apellido" required pattern="[A-Za-z]+"/>
+        <input type="number" min="18" max="80" placeholder="Edad"/>
+        <label>Sexo</label>
+        <label>
+            M
+            <input type="radio" name="sex" value="m" required/>
+        </label>
+        <label>
+            F
+            <input type="radio" name="sex" value="f" required/>
+        </label>
+        <input type="text" placeholder="DNI" required minlength="8" pattern="[A-Za-z0-9]+"/>
+        <input type="email" placeholder="Email" required/>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
